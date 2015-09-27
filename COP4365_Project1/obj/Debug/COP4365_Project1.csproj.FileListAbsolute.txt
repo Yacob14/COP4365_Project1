@@ -1,0 +1,9 @@
+c:\users\alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\bin\Debug\COP4365_Project1.exe.config
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\bin\Debug\COP4365_Project1.exe
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\bin\Debug\COP4365_Project1.pdb
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\obj\Debug\COP4365_Project1.csprojResolveAssemblyReference.cache
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\obj\Debug\COP4365_Project1.Form1.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\obj\Debug\COP4365_Project1.Properties.Resources.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\obj\Debug\COP4365_Project1.csproj.GenerateResource.Cache
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\obj\Debug\COP4365_Project1.exe
+C:\Users\Alex\documents\visual studio 2013\Projects\COP4365_Project1\COP4365_Project1\obj\Debug\COP4365_Project1.pdb
