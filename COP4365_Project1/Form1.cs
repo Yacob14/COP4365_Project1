@@ -74,7 +74,94 @@ namespace COP4365_Project1
             words_listBox.Items.AddRange(wordList.ToArray());
 
         }
+/****************************************************************************/
 
+ /*     //Each button click is essentially the same
+       private void Letter0_Click(object sender, EventArgs e)
+        {
+           //Letter0.Text = textBox1.Text;
+           List<string> newList = new List<string>();      //create new list to send to sortList
+            foreach (string word in words_listBox.Items)    //uses only words currently in listbox
+            {
+                newList.Add(word);
+            }
+            sortList(sender, e, newList);
+        }
+
+        private void Letter1_Click(object sender, EventArgs e)
+        {
+            //Letter1.Text = textBox1.Text;                 //I just created a textbox and manually
+            List<string> newList = new List<string>();      //input letters to the buttons
+            foreach (string word in words_listBox.Items)
+            {
+                newList.Add(word);
+            }
+            sortList(sender, e, newList);
+        }
+
+        private void Letter2_Click(object sender, EventArgs e)
+        {
+            //Letter2.Text = textBox1.Text;
+            List<string> newList = new List<string>();
+            foreach (string word in words_listBox.Items)
+            {
+                newList.Add(word);
+            }
+            sortList(sender, e, newList);
+        }
+
+        private void Letter3_Click(object sender, EventArgs e)
+        {
+            //Letter3.Text = textBox1.Text;
+            List<string> newList = new List<string>();
+            foreach (string word in words_listBox.Items)
+            {
+                newList.Add(word);
+            }
+            sortList(sender, e, newList);
+        }
+
+        private void Letter4_Click(object sender, EventArgs e)
+        {
+            //Letter4.Text = textBox1.Text;
+            List<string> newList = new List<string>();
+            foreach (string word in words_listBox.Items)
+            {
+                newList.Add(word);
+            }
+            sortList(sender, e, newList);
+        }
+
+        private void sortList(object sender, EventArgs e, List<string> tempList)
+        {
+            List<string> newList = new List<string>();
+            Button button = (Button)sender;
+            int index = (int)char.GetNumericValue(button.Name[6]);
+            foreach (string word in tempList)
+            {
+                if (button.Text[0] == word[index - 1])
+                {
+                    newList.Add(word);                  //Adds words to new list if the letter matches
+                }                                       //the respective index letter of the words in the
+            }                                           //list box
+            displayList(newList);
+        }
+
+        private void displayList(List<string> mainList)
+        {
+            words_listBox.Items.Clear();
+            foreach (string val in mainList)
+            {
+                words_listBox.Items.Add(val);
+            }
+
+            if (mainList.Capacity == 0)             //Didn't do much bounds/error checking, just seeing if it
+            {                                       //works with an empty list
+                MessageBox.Show("There are no more words to choose from");
+            }
+        } 
+  */ 
+/**************************************************************************/
         private void Letter0_Click(object sender, EventArgs e)
         {
 
